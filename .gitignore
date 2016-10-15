@@ -1,0 +1,28 @@
+# Dependency directory
+node_modules/
+
+
+# Optional npm cache directory
+.npm
+
+
+# dev-env
+.DS_Store
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+npm-debug.log
+selenium-debug.log
+
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+dist/
+docs/
+
+
+# test
+test/unit/coverage
+test/e2e/reports

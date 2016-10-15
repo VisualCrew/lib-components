@@ -1,0 +1,63 @@
+{
+  "name": "lib-components",
+  "version": "0.0.1",
+  "description": "common components",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node webpack/dev-server.js",
+    "build": "node webpack/build.js",
+    "docs": "node webpack/docs.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisualCrew/lib-components.git"
+  },
+  "keywords": [
+    "component",
+    "vue",
+    "react"
+  ],
+  "author": "VisualCrew",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/VisualCrew/lib-components/issues"
+  },
+  "homepage": "https://github.com/VisualCrew/lib-components#readme",
+  "dependencies": {
+    "babel-runtime": "6.11.6",
+    "vue": "1.0.28",
+    "vue-i18n": "4.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.17.0",
+    "babel-loader": "6.2.5",
+    "babel-plugin-transform-runtime": "6.15.0",
+    "babel-preset-es2015": "6.16.0",
+    "babel-preset-stage-2": "6.17.0",
+    "babel-register": "6.16.3",
+    "connect-history-api-fallback": "1.3.0",
+    "css-loader": "0.23.1",
+    "eventsource-polyfill": "0.9.6",
+    "express": "4.14.0",
+    "extract-text-webpack-plugin": "1.0.1",
+    "file-loader": "0.8.5",
+    "function-bind": "1.1.0",
+    "html-webpack-plugin": "2.22.0",
+    "http-proxy-middleware": "0.12.0",
+    "json-loader": "0.5.4",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "ora": "0.2.3",
+    "shelljs": "0.6.1",
+    "url-loader": "0.5.7",
+    "vue-hot-reload-api": "1.3.3",
+    "vue-html-loader": "1.2.3",
+    "vue-loader": "8.5.4",
+    "vue-style-loader": "1.0.0",
+    "webpack": "1.13.2",
+    "webpack-dev-middleware": "1.8.4",
+    "webpack-hot-middleware": "2.12.2",
+    "webpack-merge": "0.8.4"
+  }
+}
