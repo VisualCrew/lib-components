@@ -3,44 +3,50 @@
 <head>
 	<meta charset="utf8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-	<title>lib-components</title>
+	<title>Lib Components</title>
 	<style media="screen">
-		app {
-			display: block;
+		body, .app {
 			width: 100%;
-			margin-top: 50px;
+			background-color: #f3f3f3;
 			text-align: center;
 		}
-		app > div {
-			width: 20px;
-			height: 20px;
-			background-color: #8BC34A;
-			display: inline-block;
-
-			animation: wrappx 1.4s infinite ease-in-out;
-			animation-fill-mode: both;
+		a {
+			color: #777;
+			text-decoration: none;
 		}
-		app .c1 {
-			animation-delay: -0.32s;
+		a:hover {
+			color: #555;
 		}
-		app .c2 {
-			animation-delay: -0.16s;
+		.app > * {
+			width: 70%;
+			margin-left: 15%;
 		}
-		@keyframes wrappx {
-			0%, 80%, 100% {
-				transform: scale(0.1);
-			}
-			40% {
-				transform: scale(1);
-			}
+		.header {
+			border-bottom: 1px solid #d2d2d2;
+			height: 50px;
+			color: #d2d2d2;
+		}
+		.content {
+			padding: 30px;
+		}
+		.content .section {
+			margin-right: 50px;
+			height: 50px;
+			line-height: 50px;
+			float: left;
+			font-size: 22px;
+			font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,"sans-serif";
 		}
 	</style>
 </head>
 <body>
-	<app>
-		<div class="c1"></div>
-        <div class="c2"></div>
-        <div class="c3"></div>
-	</app>
+	<div class="app">
+		<div class="header">
+			<h1>Menu</h1>
+		</div>
+		<div class="content">
+			<div class="section"><a href="vue/index.html">Vue Components Pages</a></div>
+		</div>
+	</div>
 </body>
 </html>
